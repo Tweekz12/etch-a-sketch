@@ -13,7 +13,7 @@ function drawSquares(heightOfOneSquare) {
 function colorTheSquares() {
     const squares = document.querySelectorAll('.square');
     squares.forEach(square => square.addEventListener('mouseover', (e) => {
-        e.target.classList.add('colored');
+        e.target.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)})`;
     }));
 }
 

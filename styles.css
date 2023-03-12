@@ -1,3 +1,21 @@
 body {
-    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 512px;
+}
+
+.square {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.colored {
+    background-color: blueviolet;
 }

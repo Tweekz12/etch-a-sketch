@@ -1,13 +1,9 @@
-body {
-    display: flex;
-    justify-content: center;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid black;
     width: 512px;
+    margin: 0 auto;
 }
 
 .square {
@@ -18,4 +14,10 @@ body {
 
 .colored {
     background-color: blueviolet;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
 }
